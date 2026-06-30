@@ -1,0 +1,7 @@
+const images = document.querySelectorAll(".gallery img");
+
+images.forEach((image) => {
+    image.addEventListener("click", () => {
+        alert("You clicked: " + image.alt);
+    });
+});
